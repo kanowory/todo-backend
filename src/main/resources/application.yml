@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: user
-    password: password
-    url: jdbc:sqlserver://morfeusz.wszib.edu.pl:1433;databaseName=user;encrypt=false;
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
   jpa:
     hibernate:
       ddl-auto: update
