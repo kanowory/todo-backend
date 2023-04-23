@@ -1,4 +1,4 @@
-package com.example.todolistbackend;
+package com.example.todolistbackend.todo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
